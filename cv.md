@@ -1,4 +1,4 @@
-###Veranika Alifer
+### Veranika Alifer
 
 [Email](veranika.alifer@gmail.com)/[LinkedIn](https://www.linkedin.com/in/veronica-alifer/)
 
