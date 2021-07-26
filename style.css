@@ -1,0 +1,107 @@
+:root {
+  --border: 2px solid rgb(173, 172, 172);
+  --color-blueSky: rgb(231, 246, 250);
+}
+
+body {
+  margin: 20px;
+  border: var(--border);
+  padding: 40px;
+  padding-right: 100px;
+  color: rgb(61, 60, 60);
+}
+
+.header {
+  margin-top: 50px;
+  background-color: var(--color-blueSky);
+  height: 250px;
+  position: relative;
+}
+
+.avatar {
+  border: 10px solid white;
+  position: absolute;
+  left: 50%;
+  bottom: 80px;
+  height: 200px;
+  width: 200px;
+}
+
+.name {
+  position: absolute;
+  left: 25%;
+  bottom: 110px;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.position {
+  position: absolute;
+  left: 27%;
+  bottom: 80px;
+  font-size: 16px;
+}
+
+.contactList a {
+  text-decoration: none;
+  line-height: 35px;
+  padding-left: 33px;
+}
+
+.contactList a:before {
+  color: rgb(173, 172, 172);
+  padding-right: 20px;
+}
+
+.contactList {
+  position: absolute;
+  top: 15%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.blocks {
+  display: flex;
+}
+
+.block {
+  width: 32%;
+  border: var(--border);
+  height: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.left {
+  margin-right: 5px;
+}
+
+.right {
+  margin-left: 5px;
+}
+
+.footer {
+  position: relative;
+  height: 50px;
+  background-color: var(--color-blueSky);
+}
+
+.footerYear {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.footerGitHubLink {
+  position: absolute;
+  right: 90px;
+  margin: 5px;
+}
+
+.footerRsSchoolLink {
+  position: absolute;
+  right: 10px;
+  margin: 5px;
+}
